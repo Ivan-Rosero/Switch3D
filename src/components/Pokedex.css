@@ -1,0 +1,27 @@
+.square {
+    width: 75px; 
+    height: 75px; 
+    border: 1px solid #000; 
+    overflow: hidden; 
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+  }
+
+.square img {
+    width: 100%; 
+    height: auto; 
+    display: block;
+    border-radius: 10px;
+}
+
+.pokedex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
